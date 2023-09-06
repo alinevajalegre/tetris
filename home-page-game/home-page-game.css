@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7945FF;
+}
+
+iframe {
+    width: 100%; 
+    border: none;
+}
+
+#tetris-logo {
+    width: 450px; 
+    height: 450px;
+    margin: -40px 200px 0px 100px;
+}
+
+.game-frame {
+    border-right: 3px solid #000;
+    border-bottom: 14px solid #000;
+    border-left: 3px solid #000;
+    background-color: white !important;
+    width: 250px;
+    height: 250px;
+    margin: 50px 60px 0px 0px;
+    border-radius: 24px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.game-frame h1 {
+    padding-top: 10px;
+    font-size: 26px;
+    background-color: inherit;
+    color: #F89622;
+}
+
+.game-frame h2 {
+    color: #000000;
+    font-size: 30px !important;
+    background-color: inherit;
+}
+
+.game-frame p {
+    font-weight: 400 !important;
+    background-color: inherit;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
