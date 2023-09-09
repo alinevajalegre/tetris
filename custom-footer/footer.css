@@ -8,7 +8,7 @@ body, html {
 }
 
 footer {
-    background-image: url('/tetris/images/footer.svg');
+    background-image: url('../images/footer.svg');
     background-repeat: repeat-x;
     margin-top: auto;
 }
