@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-svg svg {
+    width: 100%;
+}
+
+footer {
+    background-image: url('/tetris/images/footer.svg');
+    background-repeat: repeat-x;
+    margin-top: auto;
+}
