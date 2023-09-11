@@ -10,5 +10,6 @@ body, html {
 footer {
     background-image: url('../images/footer.svg');
     background-repeat: repeat-x;
-    margin-top: auto;
+    margin-bottom: 0;
+    margin-top: 10%;
 }

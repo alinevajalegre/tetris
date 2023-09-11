@@ -1,0 +1,84 @@
+/*
+Para usar em outro css, basta importar o arquivo button.css
+e usar a classe pink-button - Exemplo: <input type="button" class="pink-button" value="Nome Completo">
+ou a classe yellow-button - Exemplo: <input type="button" class="yellow-button" value="Regras Do Jogo">
+ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jogo</button>
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos Comuns */
+.button {
+    border-radius: 3.2vh;
+    border-top: 0.5vh solid #000;
+    border-right: 0.5vh solid #000;
+    border-left: 0.5vh solid #000;
+    border-bottom: 1.3vh solid #000;
+    padding: 10px;
+    height: 9vh;
+    width: 50vh;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão pink */
+.pink-button {
+    color: white;
+    background-color: #fd6687;
+}
+
+.pink-button:hover, .pink-button:focus {
+    background-color: #ff7aa8;
+    cursor: pointer;
+}
+
+.pink-button:active {
+    border-bottom: 0.5vh solid #000;
+    position: relative;
+    top: 1.3vh;
+}
+
+/* Estilo para o botão yellow */
+.yellow-button {
+    color: black;
+    background-color: #ffce69;
+}
+
+.yellow-button:hover, .yellow-button:focus {
+    background-color: #ffdf8c;
+    cursor: pointer;
+}
+
+.yellow-button:active {
+    border-bottom: 0.5vh solid #000;
+    position: relative;
+    top: 1.3vh;
+}
+
+
+/* Estilo para o input pink */
+.pink-button-input {
+    color: white; 
+    background-color: #fd6687;
+}
+
+.pink-button-input:hover, .pink-button-input:focus {
+    background-color: #ff7aa8;
+}
+
+/* Estilo para o input yellow */
+.yellow-button-input {
+    color: black; 
+    background-color: #ffce69;
+
+}
+
+.yellow-button-input:hover, .yellow-button-input:focus {
+    background-color: #ffdf8c;
+}
+
