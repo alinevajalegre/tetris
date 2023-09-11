@@ -1,4 +1,4 @@
-@import '/tetris/style.css';
+@import '../style.css';
 
 header {
     color: #000000;

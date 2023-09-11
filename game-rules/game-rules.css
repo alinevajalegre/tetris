@@ -1,6 +1,6 @@
-@import '/structure/structure.css';
-@import '/style.css';
-@import '/custom-footer/footer.css';
+@import '../structure/structure.css';
+@import '../style.css';
+@import '../custom-footer/footer.css';
 
 body, html {
     height: 100%;
