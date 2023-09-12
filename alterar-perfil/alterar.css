@@ -1,12 +1,11 @@
 @import '../style.css';
 @import '../custum-button/button.css';
-@import '../tetris-brenno/botao/botao.css';
+@import '../botao/botao.css';
 
 .title {
     color: #fff;
     text-align: center;
     font-size: 35px;
-    margin-top: -8%;
 }
 
 .input-container {
