@@ -1,5 +1,5 @@
 @import '../style.css';
-@import '../custum-button/button.css';
+@import '../custom-button/button.css';
 
 #tetris-logo {
     width: 450px; 
