@@ -8,22 +8,27 @@
 
 </head>
 <body>
-    <iframe src="../header.html"></iframe>
+    <header>
+        <nav>
+            <a href="../main.html">Home</a>
+            <a href="../about-project/about.html">Sobre</a>
+        </nav>
+    </header>
 
-    
     <div class="display-flex row">
         <img id="tetris-logo" src="../images/tetris-logo.svg" alt="Imagem representando o logo do jogo tetris, onde uma peça do jogo contém o texto Tetris dentro"></img>
+        
         <div class="game-frame">
-            <h1>Tabuleiro clássico</h1>
+            <h1><a href="../game/game.html">Tabuleiro clássico</a></h1>
             <h2>10 x 20</h2>
             <p>Mais fácil</p>
         </div>
         <div class="game-frame">
-            <h1>Tabuleiro especial</h1>
+            <h1><a href="../game/game.html">Tabuleiro especial</a></h1>
             <h2>22 x 44</h2>
             <p>Mais difícil</p>
         </div>
-    </div> <!-- display-flex row -->
+    </div> 
     <button class="button yellow-button" id="button-rules" onclick="">
         <a href="../game-rules/game-rules.html">Regras do Jogo</a>
     </button>

@@ -6,7 +6,7 @@
     color: #fff;
     text-align: center;
     font-size: 35px;
-    margin-top: -8%;
+    margin-top: 0%;
 }
 
 .input-container {
@@ -30,7 +30,7 @@
 .left-inputs:last-child,
 .right-inputs:last-child {
     margin-right: 0;
-    /* Remove a margem direita da última coluna */
+
 }
 
 .left-inputs input,
@@ -51,9 +51,35 @@
 .aCadastre {
     margin-top: 1%;
     color: #fff;
+    background-color: inherit;
     font-weight: 500;
     text-decoration: underline;
     font-size: 18px;
+}
+
+header {
+    overflow: hidden;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin: 0px 50px 0px 50px;
+}
+
+nav a {
+    color: #000000 !important;
+    text-decoration: none; 
+    margin: 0 10px;
 }
 
 .circle1{

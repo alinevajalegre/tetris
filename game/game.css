@@ -34,40 +34,28 @@ nav a {
     margin: 0 10px;
 }
 
-main{
+/* main{
     width: 100%;
     text-align: center;
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
+} */
+
+.img-tetris {
+    width: 200px;
 }
 
-img{
-    width: 250px;
-}
-
-section{
+.jogo {
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    gap: 50px;
-    margin-top: 10px;
+    flex-direction: column;
 }
 
 .tela-jogo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #000000;
-    border: 3px solid #FFFFFF;
-    border-radius: 30px;
-    width: 300px;
-    height: 500px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7%;
+    width: 400px;
 }
 
 
@@ -77,13 +65,11 @@ section{
     border-left: 4px solid #000000;
     border-right: 4px solid #000000;
     border-radius: 30px;
-    width: 200px;
-    height: 400px;
-    margin-top: 10px;
-    position: absolute;
-    top: 54%;
-    right: 5%;
-    transform: translateY(-50%);
+    width: 220px;
+    height: 480px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .ranking p:first-child{
@@ -94,7 +80,6 @@ section{
 .conteudo p:first-child{
     font-size: 12px;
     font-weight: bold;
-    margin-left: 10px;
 }
 
 .conteudo p:nth-child(2){
@@ -110,13 +95,22 @@ span{
     margin-right: 75px; 
 }
 
+
+.display-flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
 .game-frame {
     border-right: 3px solid #000;
     border-bottom: 14px solid #000;
     border-left: 3px solid #000;
     background-color: white !important;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 20px 2px 0px 0px;
     border-radius: 24px;
     flex-direction: column;
@@ -126,24 +120,65 @@ span{
     font-weight: bold;
 }
 
-#cardnivel{
-    padding: 10px;
-    width: 70%;
-    height: 5%;
+.cards-esquerda {
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 6%;
 }
 
-#cardnivel h1{
+.orange-text {
+    color: #F89622;
+    font-size: 30px;
     margin-top: 0px;
 }
 
-.cards-esquerda {
-    position: absolute;
-    left: 5%;
-    top: 50%;
-    transform: translateY(-50%);
+.pink-text {
+    color: #FD6687;
+    margin-top: 0px;
 }
 
-.img_tetris{
-    margin-top: -10%;
-    margin-bottom: 10%;
+.botao {
+    display: flex;
+    height: 30px;
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    border-top: 3px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 5px solid #000;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.botaoPerfil {
+    background: #f89622;
+    width: 150px;
+} 
+
+.botaoSair {
+    background: #ffce69;
+    width: 150px;
+}
+
+.botaoRankingGlobal{
+    width: 195px !important;
+    background: #fd6687;
+    margin-top: 10%;
+}
+
+.cards-direita {
+    flex-direction: column;
+    margin-left: 10%;
 }

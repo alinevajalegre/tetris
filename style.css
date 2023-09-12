@@ -2,31 +2,51 @@
 @import 'colors-variables.css';
 @import '/custom-footer/footer.css';
 @import '/header.css';
+@import '../structure/structure.css';
+@import '../style.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--custom-bg);
-    overflow: hidden;
 }
 
 html, body {
+    background-color: var(--custom-bg);
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-main{
+.main{
     display: flex;
     justify-content: center;
     min-height: 100%;
     box-sizing: border-box;
 }
 
-iframe {
-    width: 100%; 
-    border: none;
-    padding: 0;
-    margin: 0;
+header {
+    overflow: hidden;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin: 0px 50px 0px 50px;
+}
+
+nav a {
+    color: var(--black) !important;
+    text-decoration: none; 
+    margin: 0 10px;
 }
 
 #tetris-logo {
@@ -57,10 +77,10 @@ iframe {
     color: white;
     background-color: #fd6687;
     border-radius: 3.2vh;
-    border-top: 0.5vh solid #000;
-    border-right: 0.5vh solid #000;
-    border-left: 0.5vh solid #000;
-    border-bottom: 1.3vh solid #000;
+    border-top: 0.5vh solid var(--black);
+    border-right: 0.5vh solid var(--black);
+    border-left: 0.5vh solid var(--black);
+    border-bottom: 1.3vh solid var(--black);
     padding: 10px;
     height: 7vh;
     width: 53vh;
@@ -70,18 +90,17 @@ iframe {
 .username::placeholder{
     color: white;
     font-size: 3vh;
-    font-weight: bold
-    ;
+    font-weight: bold;
 }
 
 .senha{
     color: #74562c;
     background-color: #ffce69;
     border-radius: 3.2vh;
-    border-top: 0.5vh solid #000;
-    border-right: 0.5vh solid #000;
-    border-left: 0.5vh solid #000;
-    border-bottom: 1.3vh solid #000;
+    border-top: 0.5vh solid var(--black);
+    border-right: 0.5vh solid var(--black);
+    border-left: 0.5vh solid var(--black);
+    border-bottom: 1.3vh solid var(--black);
     padding: 10px;
     height: 7vh;
     width: 53vh;
@@ -89,7 +108,8 @@ iframe {
 
 .senha::placeholder{
     color:  #74562c;
-    font-size: 4vh;
+    font-size: 3vh;
+    font-weight: bold;
 }
 
 
@@ -106,10 +126,10 @@ input{
     justify-content: center;
     color: #fff !important;
     border-radius: 3.9vh;
-    border-top: 0.5vh solid #000;
-    border-right: 0.5vh solid #000;
-    border-left: 0.5vh solid #000;
-    border-bottom: 1.5vh solid #000;
+    border-top: 0.5vh solid var(--black);
+    border-right: 0.5vh solid var(--black);
+    border-left: 0.5vh solid var(--black);
+    border-bottom: 1.5vh solid var(--black);
     background: #5c2dd5 !important;
     padding: 1vh 1vw;
     margin: auto;
