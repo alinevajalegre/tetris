@@ -1,3 +1,5 @@
+@import '../colors-variables.css';
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100%;
@@ -10,13 +12,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #5c2dd5;
+    background-color: var(--purple);
 }
 
 p {
     margin-top: 65px;
     margin-bottom: 20px;
-    color: white;
+    color: var(--white);
 }
 
 .botaoIndex {
@@ -25,13 +27,13 @@ p {
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    color: #fff !important;
+    color: var(--white) !important;
     border-radius: 60px;
-    border-top: 3px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 10px solid #000;
-    border-left: 5px solid #000;
-    background: #5c2dd5;
+    border-top: 3px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 10px solid var(--black);
+    border-left: 5px solid var(--black);
+    background: var(--purple);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;
@@ -43,13 +45,13 @@ p {
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    color: #fff;
+    color: var(--white);
     border-radius: 60px;
-    border-top: 3px solid #fff;
-    border-right: 5px solid #fff;
-    border-bottom: 10px solid #fff;
-    border-left: 5px solid #fff;
-    background: #5c2dd5;
+    border-top: 3px solid var(--white);
+    border-right: 5px solid var(--white);
+    border-bottom: 10px solid var(--white);
+    border-left: 5px solid var(--white);
+    background: var(--purple);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;
@@ -62,13 +64,13 @@ p {
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    color: black;
+    color: var(--black);
     border-radius: 20px;
-    border-top: 3px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 10px solid #000;
-    border-left: 5px solid #000;
-    background: #f89622;
+    border-top: 3px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 10px solid var(--black);
+    border-left: 5px solid var(--black);
+    background: var(--orange);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;
@@ -82,11 +84,11 @@ p {
     justify-content: center;
     color: black;
     border-radius: 20px;
-    border-top: 3px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 10px solid #000;
-    border-left: 5px solid #000;
-    background: #f89622;
+    border-top: 3px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 10px solid var(--black);
+    border-left: 5px solid var(--black);
+    background: var(--orange);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;
@@ -98,13 +100,13 @@ p {
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    color: black;
+    color: var(--black);
     border-radius: 20px;
-    border-top: 3px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 10px solid #000;
-    border-left: 5px solid #000;
-    background: #ffce69;
+    border-top: 3px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 10px solid var(--black);
+    border-left: 5px solid var(--black);
+    background: var(--yellow);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;
@@ -117,13 +119,13 @@ p {
     text-decoration: none;
     font-size: 18px;
     justify-content: center;
-    color: black;
+    color: var(--black);
     border-radius: 20px;
-    border-top: 3px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 10px solid #000;
-    border-left: 5px solid #000;
-    background: #fd6687;
+    border-top: 3px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 10px solid var(--black);
+    border-left: 5px solid var(--black);
+    background: var(--pink);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;
@@ -138,13 +140,13 @@ p {
     height: 70px;
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: var(--black);
     border-radius: 30px;
-    border-top: 5px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 15px solid #000;
-    border-left: 5px solid #000;
-    background: #ffce69;
+    border-top: 5px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 15px solid var(--black);
+    border-left: 5px solid var(--black);
+    background: var(--yellow);
     padding: 10px 20px;
     margin: 0 auto;
     font-weight: bold;

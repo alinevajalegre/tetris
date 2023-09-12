@@ -6,18 +6,18 @@ ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jog
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+@import '../colors-variables.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Estilos Comuns */
 .button {
     border-radius: 3.2vh;
-    border-top: 0.5vh solid #000;
-    border-right: 0.5vh solid #000;
-    border-left: 0.5vh solid #000;
-    border-bottom: 1.3vh solid #000;
+    border-top: 0.5vh solid var(--black);
+    border-right: 0.5vh solid var(--black);
+    border-left: 0.5vh solid var(--black);
+    border-bottom: 1.3vh solid var(--black);
     padding: 10px;
     height: 9vh;
     width: 50vh;
@@ -26,70 +26,65 @@ ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jog
     cursor: pointer;
 }
 
-/* Estilo para o botão pink */
 .pink-button {
-    color: white;
-    background-color: #fd6687;
+    color: var(--white);
+    background-color: var(--pink);
 }
 
 .pink-button:hover, .pink-button:focus {
-    background-color: #ff7aa8;
+    background-color: var(--pink-hover);
     cursor: pointer;
 }
 
 .pink-button:active {
-    border-bottom: 0.5vh solid #000;
+    border-bottom: 0.5vh solid var(--black);
     position: relative;
     top: 1.3vh;
 }
 
-/* Estilo para o botão yellow */
 .yellow-button {
     color: black;
-    background-color: #ffce69;
+    background-color: var(--yellow);
 }
 
 .yellow-button:hover, .yellow-button:focus {
-    background-color: #ffdf8c;
+    background-color: var(--yellow-hover);
     cursor: pointer;
 }
 
 .yellow-button:active {
-    border-bottom: 0.5vh solid #000;
+    border-bottom: 0.5vh solid var(--black);
     position: relative;
     top: 1.3vh;
 }
 
-/* Estilo para o input pink */
 .pink-button-input {
-    color: white; 
-    background-color: #fd6687;
+    color: var(--white); 
+    background-color: var(--pink);
 }
 
 .pink-button-input-disabled {
-    color: white; 
-    background-color: #FFADBF;
+    color: var(--white); 
+    background-color: var(--light-pink);
 }
 
 .pink-button-input::placeholder{
-    color: rgba(255, 255, 255, 0.7); /* Cor branca com 50% de opacidade */
+    color: var(--white-shadow)
 }
 
 .pink-button-input:hover, .pink-button-input:focus {
-    background-color: #ff7aa8;
+    background-color: var(--pink-hover);
 }
 
-/* Estilo para o input yellow */
 .yellow-button-input {
-    color: black; 
-    background-color: #ffce69;
-
+    color: var(--black); 
+    background-color: var(--yellow);
 }
 
 .yellow-button-input:hover, .yellow-button-input:focus {
-    background-color: #ffdf8c;
+    background-color: var(--yellow-hover);
 }
 
 .yellow-button-input::placeholder{
-    color: black;
+    color: var(--black);
 }
