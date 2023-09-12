@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+@import '../custom-footer/footer.css';
+@import '../colors-variables.css';
+@import '../style.css';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--custom-bg);
+    margin-bottom: 5%;
+}
+
+.round-card {
+    transform: translateX(240%);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 3.5%;
+    top: 0px;
+    background-color: var(--pink);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card {
+    text-align: center;
+    height: calc(100vh - 300px);
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 30px;
+    background-color: var(--white);
+    align-items: center;
+    justify-content: center;
+}
+
+.global-ranking {
+    margin-top: 5%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.border-ye{
+    font-weight: bold;
+    margin-top: 3%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    background-color: var(--yellow);
+    border-radius: 50%;
+}
+
+.ranking-without-border {
+    margin-left: 6%;
+    margin-right: 6%;
+    font-weight: bold;
+    color: var(--dark-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    color: var(--pink);
+    margin-left: 75px;
+    margin-right: 75px; 
+}
+
+.points { 
+    margin-top: -12px !important;
+    font-size: 14px;
+    color: var(--gray)
+}
+
+p {
+    font-weight: bold;
+}
+
+.second-column {
+    margin-left: 20%;
+}
+
