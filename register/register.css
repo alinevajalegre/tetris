@@ -1,11 +1,10 @@
 @import '../style.css';
 @import '../custom-button/button.css';
 @import '../botao/botao.css';
-
-
+@import '../colors-variables.css';
 
 .title {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 35px;
     margin-top: 0%;
@@ -52,7 +51,7 @@
 
 .aCadastre {
     margin-top: 1%;
-    color: #fff;
+    color:  var(--white);
     background-color: inherit;
     font-weight: 500;
     text-decoration: underline;
@@ -66,8 +65,8 @@
     width: 100vw;
     height: 100vh;
     left: -5px;
-    background-color: #23053F;
+    background-color: var(--dark-purple);
     border-radius: 50%;
-    transform: translateY(80%); /* Centraliza horizontalmente */
+    transform: translateY(80%); 
 
 }

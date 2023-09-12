@@ -1,6 +1,7 @@
 :root {
     --pink: #fd6687;
     --pink-hover: #ff7aa8;
+    --light-pink: #FFADBF;
     --yellow: #ffce69;
     --yellow-hover: #ffdf8c;
     --black: #000000;
@@ -11,4 +12,5 @@
     --dark-brown:#74562c;
     --purple: #5c2dd5;
     --custom-bg: #7945FF;
+    --white-shadow: rgba(255, 255, 255, 0.7);
 }
