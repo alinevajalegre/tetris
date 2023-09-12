@@ -5,5 +5,8 @@
     --pink-hover: #ff7aa8;
     --yellow: #ffce69;
     --yellow-hover: #ffdf8c;
-    --custom-bg: #7945FF; /* Nova cor de fundo */
+    --black: #000000;
+    --white: #ffffff;
+    --dark-purple: #23053F;
+    --custom-bg: #7945FF;
 }
