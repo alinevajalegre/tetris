@@ -1,6 +1,7 @@
 @import '../structure/structure.css';
 @import '../style.css';
 @import '../custom-footer/footer.css';
+@import '../botao/botao.css';
 
 .card h1 {
     background: none;
@@ -23,7 +24,7 @@
 .card {
     text-align: center;
     height: calc(100vh - 350px);
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding: 60px;
     border-radius: 30px;
@@ -38,7 +39,7 @@
 }
 
 .round-card {
-    transform: translateX(295%);
+    transform: translateX(240%);
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -49,6 +50,11 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.botaoEntendiTudo {
+    margin-top: 0%;
+    height: 65px;
 }
 
 

@@ -1,9 +1,8 @@
 @import '../style.css';
 @import '../custum-button/button.css';
-@import '../tetris-brenno/botao/botao.css';
+@import '../botao/botao.css';
 @import '../custom-footer/footer.css';
 @import '../colors-variables.css';
-@import '../botao/botao.css';
 
 .title {
     color: var(--white);
