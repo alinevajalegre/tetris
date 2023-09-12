@@ -33,6 +33,7 @@ nav a {
 }
 
 main{
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     max-width: 800px;
@@ -49,15 +50,26 @@ section{
     margin-top: 10px;
 }
 
-.tela-jogo{
+.tela-jogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #000000;
     border: 3px solid #FFFFFF;
     border-radius: 30px;
     width: 300px;
     height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
 }
 
-.ranking{
+
+.ranking {
     background-color: #FFFFFF;
     border-bottom: 15px solid #000000;
     border-left: 4px solid #000000;
@@ -66,6 +78,10 @@ section{
     width: 200px;
     height: 400px;
     margin-top: 10px;
+    position: absolute;
+    top: 54%;
+    right: 5%;
+    transform: translateY(-50%);
 }
 
 .ranking p:first-child{
@@ -92,3 +108,40 @@ span{
     margin-right: 75px; 
 }
 
+.game-frame {
+    border-right: 3px solid #000;
+    border-bottom: 14px solid #000;
+    border-left: 3px solid #000;
+    background-color: white !important;
+    width: 250px;
+    height: 250px;
+    margin: 20px 2px 0px 0px;
+    border-radius: 24px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#cardnivel{
+    padding: 10px;
+    width: 70%;
+    height: 5%;
+}
+
+#cardnivel h1{
+    margin-top: 0px;
+}
+
+.cards-esquerda {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img_tetris{
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
