@@ -7,11 +7,10 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--custom-bg);
-    /* overflow: hidden; */
 }
 
 html, body {
+    background-color: var(--custom-bg);
     height: 100%;
     width: 100%;
     margin: 0;

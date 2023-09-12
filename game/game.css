@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+@import '../style.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -63,10 +64,10 @@ nav a {
     border-left: 4px solid #000000;
     border-right: 4px solid #000000;
     border-radius: 30px;
-    width: 200px;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 10%;
+    width: 220px;
+    height: 480px;
+    margin-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -129,6 +130,7 @@ span{
     font-size: 18px;
     font-weight: bold;
     margin-left: 4px;
+    margin-top: 6%;
 }
 
 .orange-text {
@@ -140,4 +142,65 @@ span{
 .pink-text {
     color: #FD6687;
     margin-top: 0px;
+}
+
+.botaoPerfil {
+    display: flex;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    border-top: 3px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 5px solid #000;
+    background: #f89622;
+    padding: 10px 20px;
+    font-weight: bold;
+} 
+
+.botaoSair {
+    display: flex;
+    width: 150px;
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    border-top: 3px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 5px solid #000;
+    background: #ffce69;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.botaoRankingGlobal{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    border-top: 3px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 5px solid #000;
+    background: #fd6687;
+    padding: 10px 20px;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.cards-direita {
+    flex-direction: column;
+    margin-left: 10%;
 }
