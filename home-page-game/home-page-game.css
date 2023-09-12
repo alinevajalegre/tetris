@@ -8,10 +8,10 @@
 }
 
 .game-frame {
-    border-right: 3px solid #000;
-    border-bottom: 14px solid #000;
-    border-left: 3px solid #000;
-    background-color: white !important;
+    border-right: 3px solid var(--black);
+    border-bottom: 14px solid var(--black);
+    border-left: 3px solid var(--black);
+    background-color: var(--white) !important;
     width: 250px;
     height: 250px;
     margin: 50px 60px 0px 0px;
@@ -29,7 +29,7 @@
 }
 
 .game-frame a:visited {
-    color: #F89622;
+    color: var(--orange);
    background-color: inherit;
 }
 
@@ -37,11 +37,11 @@
     padding-top: 10px;
     font-size: 26px;
     background-color: inherit;
-    color: #F89622;
+    color: var(--orange);
 }
 
 .game-frame h2 {
-    color: #000000;
+    color: var(--black);
     font-size: 30px !important;
     background-color: inherit;
 }
@@ -72,6 +72,6 @@
 
 #button-rules a {
     text-decoration: none;
-    color: #010101;
+    color: var(--black);
     background: none;
 }

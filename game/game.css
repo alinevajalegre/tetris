@@ -61,10 +61,10 @@ nav a {
 
 
 .ranking {
-    background-color: #FFFFFF;
-    border-bottom: 15px solid #000000;
-    border-left: 4px solid #000000;
-    border-right: 4px solid #000000;
+    background-color: var(--white);
+    border-bottom: 15px solid var(--black);
+    border-left: 4px solid var(--black);
+    border-right: 4px solid var(--black);
     border-radius: 30px;
     width: 220px;
     height: 480px;
@@ -84,14 +84,14 @@ nav a {
 }
 
 .conteudo p:nth-child(2){
-    color: #696969;
+    color: var(--gray);
     font-size: 14px;
     font-weight: bold;
     margin-top: -10px;
 }
 
 span{
-    color: #FD6687;
+    color: var(--pink);
     margin-left: 75px;
     margin-right: 75px; 
 }
@@ -106,9 +106,9 @@ span{
 }
 
 .game-frame {
-    border-right: 3px solid #000;
-    border-bottom: 14px solid #000;
-    border-left: 3px solid #000;
+    border-right: 3px solid var(--black);
+    border-bottom: 14px solid var(--black);
+    border-left: 3px solid var(--black);
     background-color: white !important;
     width: 200px;
     height: 200px;
@@ -136,13 +136,13 @@ span{
 }
 
 .orange-text {
-    color: #F89622;
+    color: var(--orange);
     font-size: 30px;
     margin-top: 0px;
 }
 
 .pink-text {
-    color: #FD6687;
+    color: var(--pink);
     margin-top: 0px;
 }
 
@@ -153,29 +153,29 @@ span{
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    color: black;
+    color: var(--black);
     border-radius: 20px;
-    border-top: 3px solid #000;
-    border-right: 5px solid #000;
-    border-bottom: 10px solid #000;
-    border-left: 5px solid #000;
+    border-top: 3px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: 10px solid var(--black);
+    border-left: 5px solid var(--black);
     padding: 10px 20px;
     font-weight: bold;
 }
 
 .botaoPerfil {
-    background: #f89622;
+    background: var(--orange);
     width: 150px;
 } 
 
 .botaoSair {
-    background: #ffce69;
+    background: var(--yellow);
     width: 150px;
 }
 
 .botaoRankingGlobal{
     width: 195px !important;
-    background: #fd6687;
+    background: var(--pink);
     margin-top: 10%;
 }
 
