@@ -62,7 +62,7 @@ section{
     height: 500px;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Alinhe o conteúdo verticalmente */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 7%;
@@ -139,7 +139,6 @@ span{
     left: 5%;
     top: 50%;
     transform: translateY(-50%);
-    /* Outros estilos conforme necessário */
 }
 
 .img_tetris{
