@@ -51,6 +51,7 @@
 .aCadastre {
     margin-top: 1%;
     color: #fff;
+    background-color: inherit;
     font-weight: 500;
     text-decoration: underline;
     font-size: 18px;
