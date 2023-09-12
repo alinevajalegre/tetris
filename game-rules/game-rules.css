@@ -38,7 +38,7 @@
 }
 
 .round-card {
-    transform: translateX(280%);
+    transform: translateX(295%);
     display: flex !important;
     align-items: center;
     justify-content: center;
