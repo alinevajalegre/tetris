@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-svg svg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-image: url('../images/footer.svg');
+    background-repeat: repeat;
+}

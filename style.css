@@ -1,20 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
-@import '../colors-variables.css';
-@import '../custom-footer/footer.css';
-@import '../header.css';
+@import 'colors-variables.css';
+@import '/custom-folder/footer.css';
+@import '/header.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--custom-bg);
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
 iframe {
     width: 100%; 
     border: none;
+    padding: 0;
+    margin: 0;
 }
 
 #tetris-logo {
-    width: 400px; 
-    height: 400px;
+    width: 550px; 
+    height: 550px;
     margin-left: 50px;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border-radius: 60px;
+    background-color: white;
+    margin-left: 8%;
+    height: 70vh;
+    width: 30%;
+}
+
+.pLogin{
+    font-weight: bold;
+    font-size: 6vh;
+    background-color: white !important;
+}
+
+.username{
+    color: white;
+    background-color: #fd6687;
+    border-radius: 3.2vh;
+    border-top: 0.5vh solid #000;
+    border-right: 0.5vh solid #000;
+    border-left: 0.5vh solid #000;
+    border-bottom: 1.3vh solid #000;
+    padding: 10px;
+    height: 7vh;
+    width: 53vh;
+
+}
+
+.username::placeholder{
+    color: white;
+    font-size: 3vh;
+    font-weight: bold
+    ;
+}
+
+.senha{
+    color: #74562c;
+    background-color: #ffce69;
+    border-radius: 3.2vh;
+    border-top: 0.5vh solid #000;
+    border-right: 0.5vh solid #000;
+    border-left: 0.5vh solid #000;
+    border-bottom: 1.3vh solid #000;
+    padding: 10px;
+    height: 7vh;
+    width: 53vh;
+}
+
+.senha::placeholder{
+    color:  #74562c;
+    font-size: 4vh;
+}
+
+
+input{
+    margin: 8px;
+}
+
+.botaoIndex {
+    display: flex;
+    width: 10vh;
+    height: 6vh;
+    text-decoration: none;
+    font-size: 4vh;
+    justify-content: center;
+    color: #fff !important;
+    border-radius: 3.9vh;
+    border-top: 0.5vh solid #000;
+    border-right: 0.5vh solid #000;
+    border-left: 0.5vh solid #000;
+    border-bottom: 1.5vh solid #000;
+    background: #5c2dd5 !important;
+    padding: 1vh 1vw;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.pCadastre{
+    font-weight: bold;
+    background-color: white !important;
+    color: black;
+    cursor:pointer;
+    font-size: 3vh;
+}
+
+.aCadastre{
+    background-color: white;
+    color: black;
+}
+
+.pCadastre:visited{
+    color: black;
 }

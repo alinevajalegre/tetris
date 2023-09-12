@@ -67,6 +67,10 @@ ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jog
     background-color: #fd6687;
 }
 
+.pink-button-input::placeholder{
+    color: rgba(255, 255, 255, 0.7); /* Cor branca com 50% de opacidade */
+}
+
 .pink-button-input:hover, .pink-button-input:focus {
     background-color: #ff7aa8;
 }
@@ -82,3 +86,6 @@ ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jog
     background-color: #ffdf8c;
 }
 
+.yellow-button-input::placeholder{
+    color: black;
+}
