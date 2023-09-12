@@ -28,7 +28,7 @@
     margin: 0 auto;
     padding: 60px;
     border-radius: 30px;
-    background-color: #ffffff;
+    background-color: var(--white);
     align-items: center;
     justify-content: center;
     
@@ -46,7 +46,7 @@
     position: absolute;
     margin-top: 3.5%;
     top: 0px;
-    background-color: #fd6687;
+    background-color: var(--pink);
     width: 150px;
     height: 150px;
     border-radius: 50%;

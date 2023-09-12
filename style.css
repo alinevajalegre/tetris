@@ -61,7 +61,7 @@ nav a {
     flex-direction: column; 
     align-items: center;
     border-radius: 60px;
-    background-color: white;
+    background-color: var(--white);
     margin-left: 8%;
     height: 70vh;
     width: 30%;
@@ -70,12 +70,12 @@ nav a {
 .pLogin{
     font-weight: bold;
     font-size: 6vh;
-    background-color: white !important;
+    background-color: var(--white) !important;
 }
 
 .username{
-    color: white;
-    background-color: #fd6687;
+    color: var(--white);
+    background-color: var(--pink);
     border-radius: 3.2vh;
     border-top: 0.5vh solid var(--black);
     border-right: 0.5vh solid var(--black);
@@ -88,14 +88,14 @@ nav a {
 }
 
 .username::placeholder{
-    color: white;
+    color: var(--white);
     font-size: 3vh;
     font-weight: bold;
 }
 
 .senha{
-    color: #74562c;
-    background-color: #ffce69;
+    color: var(--dark-brown);
+    background-color: var(--yellow);
     border-radius: 3.2vh;
     border-top: 0.5vh solid var(--black);
     border-right: 0.5vh solid var(--black);
@@ -107,7 +107,7 @@ nav a {
 }
 
 .senha::placeholder{
-    color:  #74562c;
+    color:  var(--dark-brown);
     font-size: 3vh;
     font-weight: bold;
 }
@@ -124,13 +124,13 @@ input{
     text-decoration: none;
     font-size: 4vh;
     justify-content: center;
-    color: #fff !important;
+    color: var(--white)!important;
     border-radius: 3.9vh;
     border-top: 0.5vh solid var(--black);
     border-right: 0.5vh solid var(--black);
     border-left: 0.5vh solid var(--black);
     border-bottom: 1.5vh solid var(--black);
-    background: #5c2dd5 !important;
+    background: var(--purple)!important;
     padding: 1vh 1vw;
     margin: auto;
     font-weight: bold;
@@ -140,17 +140,17 @@ input{
 
 .pCadastre{
     font-weight: bold;
-    background-color: white !important;
-    color: black;
+    background-color: var(--white) !important;
+    color: var(--black);
     cursor:pointer;
     font-size: 3vh;
 }
 
 .aCadastre{
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 .pCadastre:visited{
-    color: black;
+    color: var(--black);
 }
