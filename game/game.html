@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play</title>
+    <title>Jogar</title>
     <link rel="stylesheet" href="game.css">
 </head>
 <body>
@@ -14,66 +14,65 @@
         </nav>
     </header>
 
-    <main>
-        <img src="../images/tetris.png" alt="letras-tetris" class="img_tetris"> 
-
+    <div class="display-flex row">
         <div class="cards-esquerda">
-            <div class="display-flex row">
-                <div class="game-frame" id="cardnivel">
-                    <h2>NÍVEL</h2>
-                    <h1 style="color: #FD6687;">GÊNIO</h1>
-                    <h2>Linhas Eliminadas</h2>
-                    <h1 style="color: #FD6687;">3</h1>
-                </div>
+            <div class="game-frame">
+                <h2 class="card-title">Pontuação</h2>
+                <h1 class="orange-text">0</h1>
+                <h2 class="card-title">Tempo</h2>
+                <h3 class="pink-text">1:20</h3>
             </div>
+            <div class="game-frame">
+                <h2 class="card-title">NÍVEL</h2>
+                <h2 class="pink-text">GÊNIO</h2>
+                <h2 class="card-title">Linhas Eliminadas</h2>
+                <h3 class="pink-text">3</h3>
+            </div> 
         </div>
-       
-
-        <section>
-            <div class="tela-jogo">
-                
-            </div>
     
-            <div class="ranking">
-                <p>SEU RANKING</p>
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
+        <div class="jogo">
+            <img src="../images/tetris.png" alt="letras tetris" class="img-tetris"> 
+            <img src="../images/tela-jogo-tetris.svg" alt="Imagem provisória representando a imagem do jogo tetris" class="tela-jogo">
+        </div>
 
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
-
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
-
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
-
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
-
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
-
-                <div class="conteudo">
-                    <p>NICKNAME<span>02:00</span></p>
-                    <p>200 Pontos - Nível Gênio</p>
-                </div>
+        <div class="ranking">
+            <p>SEU RANKING</p>
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
             </div>
 
-        </section>
-        
-    </main>
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
+            </div>
+
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
+            </div>
+
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
+            </div>
+
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
+            </div>
+
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
+            </div>
+
+            <div class="conteudo">
+                <p>NICKNAME<span>02:00</span></p>
+                <p>200 Pontos - Nível Gênio</p>
+            </div>
+        </div> 
+
+    </div>
 </body>
 </html>

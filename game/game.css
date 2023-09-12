@@ -32,38 +32,32 @@ nav a {
     margin: 0 10px;
 }
 
-main{
+/* main{
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
+} */
+
+.img-tetris {
+    width: 200px;
 }
 
-img{
-    width: 250px;
-}
-
-section{
-    display: flex;
-    gap: 50px;
-    margin-top: 10px;
-}
-
-.tela-jogo{
-    background-color: #000000;
-    border: 3px solid #FFFFFF;
-    border-radius: 30px;
-    width: 350px; 
-    height: 550px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.jogo {
+    margin-left: 15%;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
-.ranking{
+.tela-jogo {
+    width: 400px;
+}
+
+
+.ranking {
     background-color: #FFFFFF;
     border-bottom: 15px solid #000000;
     border-left: 4px solid #000000;
@@ -72,6 +66,8 @@ section{
     width: 200px;
     height: 400px;
     margin-top: 10px;
+    margin-left: 10%;
+    padding-left: 10px;
 }
 
 .ranking p:first-child{
@@ -82,7 +78,6 @@ section{
 .conteudo p:first-child{
     font-size: 12px;
     font-weight: bold;
-    margin-left: 10px;
 }
 
 .conteudo p:nth-child(2){
@@ -96,4 +91,53 @@ span{
     color: #FD6687;
     margin-left: 75px;
     margin-right: 75px; 
+}
+
+
+.display-flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.game-frame {
+    border-right: 3px solid #000;
+    border-bottom: 14px solid #000;
+    border-left: 3px solid #000;
+    background-color: white !important;
+    width: 200px;
+    height: 200px;
+    margin: 20px 2px 0px 0px;
+    border-radius: 24px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cards-esquerda {
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.orange-text {
+    color: #F89622;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.pink-text {
+    color: #FD6687;
+    margin-top: 0px;
 }
