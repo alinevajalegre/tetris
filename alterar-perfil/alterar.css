@@ -3,12 +3,12 @@
 @import '../tetris-brenno/botao/botao.css';
 @import '../custom-footer/footer.css';
 @import '../colors-variables.css';
+@import '../botao/botao.css';
 
 .title {
     color: var(--white);
     text-align: center;
     font-size: 35px;
-    margin-top: -8%;
 }
 
 .input-container {

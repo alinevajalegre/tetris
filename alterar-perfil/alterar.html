@@ -10,7 +10,12 @@
 </head>
 
 <body>
-    <iframe src="../header.html"></iframe>
+    <header>
+        <nav>
+            <a href="../main.html">Home</a>
+            <a href="../about-project/about.html">Sobre</a>
+        </nav>
+    </header>
 
     <div class="title">
         <h3>Alterar Perfil</h3>
@@ -19,16 +24,20 @@
     <div class="input-container">
         <div class="left-inputs">
             <input id="button-input" class="pink-button-input button" type="text" placeholder="Nome Completo">
-            <input id="button-input" class="pink-button-input button" type="text" placeholder="CPF">
-            <input id="button-input" class="pink-button-input button" type="text" placeholder="Username">
+            <input id="button-input" class="pink-button-input-disabled button" type="text" placeholder="CPF" readonly>
+            <input id="button-input" class="pink-button-input-disabled button" type="text" placeholder="Username" readonly>
             <input id="button-input" class="pink-button-input button" type="text" placeholder="Senha">
         </div>
         <div class="right-inputs">
-            <input id="button-input" class="pink-button-input button" type="text" placeholder="Data de Nascimento">
+            <input id="button-input" class="pink-button-input-disabled button" type="text" placeholder="Data de Nascimento" readonly>
             <input id="button-input" class="pink-button-input button" type="text" placeholder="Telefone">
             <input id="button-input" class="pink-button-input button" type="text" placeholder="E-mail">
             <input id="button-input" class="pink-button-input button" type="text" placeholder="Confirmar Senha">
         </div>
+    </div>
+
+    <div id="buttonGO">
+        <a href="../main.html" class="botaoCadastro_e_alterarPerfil" >GO!</a>
     </div>
     <footer alt="Imagem com vários retângulos coloridos com as cores do arco-íris, contendo dentro de seus interiores diferentes peças tetris">
     </footer> 
