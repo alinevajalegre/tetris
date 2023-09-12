@@ -75,28 +75,3 @@
     color: #010101;
     background: none;
 }
-
-header {
-    overflow: hidden;
-    color: #000000;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 30px 0px 30px 0px;
-    display: flex;
-    height: 30px;
-    align-items: center;
-    text-transform: uppercase;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between !important;
-    width: 100% !important;
-    margin: 0px 50px 0px 50px;
-}
-
-nav a {
-    color: #000000 !important;
-    text-decoration: none; 
-    margin: 0 10px;
-}
