@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
-@import '/tetris/style.css';
 @import '/custom-footer/footer.css';
+@import '/colors-variables.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
 body{
-    background-color: #7945FF;
+    background-color: var(--custom-bg);
 }
 
 header {
-    color: #000000;
+    color: var();
     font-size: 20px;
     font-weight: bold;
     margin: 30px 0px 30px 0px;
