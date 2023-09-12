@@ -1,7 +1,7 @@
 @import '../style.css';
 
 header {
-    color: #000000;
+    color: var(--black);
     font-size: 20px;
     font-weight: bold;
     margin: 30px 0px 30px 0px;
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-    color: #000000 !important;
+    color: var(--black) !important;
     text-decoration: none; 
     margin: 0 10px;
 }
@@ -29,7 +29,7 @@ main{
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
-    border: 3px solid #FFFFFF;
+    border: 3px solid var(--white);
     border-radius: 30px;
     margin-top: 80px;
 }
@@ -40,16 +40,16 @@ main{
 }
 
 p{
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 20px;
 }
 
 h1{
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 span{
-    color: #FFEC2E;
+    color: var(--yellow);
     font-weight: bold;
 }
 
