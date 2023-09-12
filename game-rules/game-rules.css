@@ -20,38 +20,35 @@
     margin-top: 1%;
 }
 
-.round-card::before {
-    display: flex;
+.card {
+    text-align: center;
+    height: calc(100vh - 350px);
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 30px;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
+    
+}
+
+.rules {
+    margin-top: 5%;
+}
+
+.round-card {
+    transform: translateX(280%);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 3.5%;
+    top: 0px;
     background-color: #fd6687;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    left: 50%;
 }
 
-header {
-    overflow: hidden;
-    color: #000000;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 30px 0px 30px 0px;
-    display: flex;
-    height: 30px;
-    align-items: center;
-    text-transform: uppercase;
-}
 
-nav {
-    display: flex;
-    justify-content: space-between !important;
-    width: 100% !important;
-    margin: 0px 50px 0px 50px;
-}
-
-nav a {
-    color: #000000 !important;
-    text-decoration: none; 
-    margin: 0 10px;
-}
