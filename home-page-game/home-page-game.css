@@ -62,16 +62,17 @@
 
 #button-rules {
     position: relative;
-    margin-left: 50%;
+    margin-left: 52%;
+    margin-top: -10%;
     font-size: 25px;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--black);
-    padding: 10px 105px; /* Aumentar o preenchimento para aumentar o tamanho */
+    padding: 10px 105px;
     border-radius: 3.2vh;
     cursor: pointer;
-    display: inline-flex; /* Alterado para inline-flex para permitir alinhamento vertical */
-    align-items: center; /* Alinhar verticalmente ao centro */
+    display: inline-flex;
+    align-items: center;
     justify-content: center; 
 }
 
