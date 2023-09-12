@@ -67,6 +67,11 @@ ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jog
     background-color: #fd6687;
 }
 
+.pink-button-input-disabled {
+    color: white; 
+    background-color: #FFADBF;
+}
+
 .pink-button-input::placeholder{
     color: rgba(255, 255, 255, 0.7); /* Cor branca com 50% de opacidade */
 }
