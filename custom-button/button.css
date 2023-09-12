@@ -45,6 +45,7 @@ ou a classe rulles-button - Exemplo: <button class="rulles-button">Regras Do Jog
 .yellow-button {
     color: black;
     background-color: var(--yellow);
+    padding: 15px;
 }
 
 .yellow-button:hover, .yellow-button:focus {
